@@ -1,6 +1,8 @@
 # Bootcamp-Python-2024
 
 Esse repositório tem como objetivo armazenar e organizar todos os meus estudos referentes ao Python e SQL, além de fortalecer minhas habilidades na utilização do Git e do GitHub.
+Para os estudos, estarei seguindo o Bootcamp do Luciano Galvão, com aulas todos os dias as 12h
+[Link do repositório do Luciano:]'https://github.com/lvgalvao/data-engineering-roadmap/tree/main/bootcamp'
 
 ## Programação dos estudos
 1. Python, Git e VSCode
