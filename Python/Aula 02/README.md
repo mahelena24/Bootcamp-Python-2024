@@ -83,11 +83,11 @@ Um TypeError ocorre em Python quando uma operação ou função é aplicada a um
 ### Exemplo de TypeError
 Um exemplo clássico é tentar utilizar a função len() com um inteiro, o que resulta em TypeError, pois len() espera um objeto iterável, como uma string, lista, ou tupla, não um inteiro.
 
-"try:
+```try:
     resultado = len(5)
-except TypeError as e:
-    print(e)  # Imprime a mensagem de erro"
-
+    except TypeError as e:
+    print(e)  # Imprime a mensagem de erro
+```
 
 
 ## Type Conversion
@@ -96,11 +96,12 @@ Conversão de tipo (type conversion), também conhecida como casting, é o proce
 ### Exemplo de Type Conversion
 Se você quiser somar um inteiro e um número flutuante, pode ser necessário converter o inteiro para flutuante ou vice-versa para garantir que a operação de soma seja realizada corretamente.
 
-"numero_inteiro = 5
-numero_flutuante = 2.5
- #Converte o inteiro para flutuante e realiza a soma
-soma = float(numero_inteiro) + numero_flutuante
-print(soma)  # Resultado: 7.5"
+``` numero_inteiro = 5
+    numero_flutuante = 2.5
+    #Converte o inteiro para flutuante e realiza a soma
+    soma = float(numero_inteiro) + numero_flutuante
+    print(soma)  # Resultado: 7.5
+```
 
 ## Try-Except
 A estrutura try-except é usada para tratamento de exceções em Python. Uma exceção é um erro que ocorre durante a execução do programa e que, se não tratado, interrompe o fluxo normal do programa e termina sua execução. O tratamento de exceções permite que o programa lide com erros de maneira elegante, permitindo que continue a execução ou falhe de forma controlada.
@@ -108,12 +109,11 @@ A estrutura try-except é usada para tratamento de exceções em Python. Uma exc
 try: Este bloco é o primeiro na estrutura de tratamento de exceções. Python tenta executar o código dentro deste bloco.
 except: Se uma exceção ocorrer no bloco try, a execução imediatamente salta para o bloco except. Você pode especificar tipos de exceção específicos para capturar e tratar apenas essas exceções. Se nenhum tipo de exceção for especificado, ele captura todas as exceções.
 
-### Exemplo de try-except
-"try:
+```try:
     # Código que pode gerar uma exceção
     resultado = 10 / 0
-except ZeroDivisionError:
+    except ZeroDivisionError:
     # Código que executa se a exceção ZeroDivisionError for levantada
     print("Divisão por zero não é permitida.")
-"
+```
 
