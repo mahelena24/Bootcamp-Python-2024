@@ -3,7 +3,9 @@
 
 ## Tipos Primitivos
 1. Inteiros (int)
+
 Métodos e operações:
+
 "+" (adição)
 "-" (subtração)
 * (multiplicação)
