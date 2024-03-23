@@ -1,7 +1,6 @@
 # Aula 02
  Nessa aula, irei exercitar um pouco mais sobre as variáveis do tipo int, float e booleano. Além disso, irei entender como lidar e trabalhar com erros usando o TypeError, TypeCheck, TypeConversion, TryExcept e IF
 
-#####################################
 ## Tipos Primitivos
 1. Inteiros (int)
 Métodos e operações:
@@ -10,6 +9,7 @@ Métodos e operações:
 * (multiplicação)
 // (divisão inteira)
 % (módulo - resto da divisão)
+
 2. Números de Ponto Flutuante (float)
 Métodos e operações:
 + (adição)
@@ -17,6 +17,7 @@ Métodos e operações:
 * (multiplicação)
 / (divisão)
 ** (potenciação)
+
 3. Strings (str)
 Métodos e operações:
 .upper() (converte para maiúsculas)
@@ -33,7 +34,6 @@ not (NÃO lógico)
 != (diferença)
 
 
-#####################################
 ## Exercícios para treinar:
 
 ### Inteiros (int)
@@ -65,8 +65,6 @@ not (NÃO lógico)
 3-Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 4-Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 5-Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-
-#################################################
 
 # TypeError, Type Check e Type Conversion em Python
 Python é uma linguagem de programação dinâmica, mas fortemente tipada, o que significa que não é necessário declarar tipos de variáveis explicitamente, mas o tipo de uma variável é determinado pelo valor que ela armazena. Isso introduz a necessidade de compreender como Python lida com diferentes tipos de dados, especialmente quando se trata de operações que envolvem múltiplos tipos. Vamos explorar três conceitos importantes: TypeError, verificação de tipo (type check), e conversão de tipo (type conversion).
