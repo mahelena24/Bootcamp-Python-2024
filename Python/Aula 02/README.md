@@ -34,6 +34,7 @@ not (NÃO lógico)
 != (diferença)
 
 
+
 ## Exercícios para treinar:
 
 ### Inteiros (int)
@@ -66,6 +67,8 @@ not (NÃO lógico)
 4-Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 5-Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
+
+
 # TypeError, Type Check e Type Conversion em Python
 Python é uma linguagem de programação dinâmica, mas fortemente tipada, o que significa que não é necessário declarar tipos de variáveis explicitamente, mas o tipo de uma variável é determinado pelo valor que ela armazena. Isso introduz a necessidade de compreender como Python lida com diferentes tipos de dados, especialmente quando se trata de operações que envolvem múltiplos tipos. Vamos explorar três conceitos importantes: TypeError, verificação de tipo (type check), e conversão de tipo (type conversion).
 
@@ -76,10 +79,12 @@ Um TypeError ocorre em Python quando uma operação ou função é aplicada a um
 Um exemplo clássico é tentar utilizar a função len() com um inteiro, o que resulta em TypeError, pois len() espera um objeto iterável, como uma string, lista, ou tupla, não um inteiro.
 
 # Exemplo que causa TypeError
-try:
+```try:
     resultado = len(5)
 except TypeError as e:
     print(e)  # Imprime a mensagem de erro
+```
+
 
 
 ## Type Conversion
@@ -88,11 +93,12 @@ Conversão de tipo (type conversion), também conhecida como casting, é o proce
 ### Exemplo de Type Conversion
 Se você quiser somar um inteiro e um número flutuante, pode ser necessário converter o inteiro para flutuante ou vice-versa para garantir que a operação de soma seja realizada corretamente.
 
-numero_inteiro = 5
+```numero_inteiro = 5
 numero_flutuante = 2.5
-# Converte o inteiro para flutuante e realiza a soma
+ #Converte o inteiro para flutuante e realiza a soma
 soma = float(numero_inteiro) + numero_flutuante
 print(soma)  # Resultado: 7.5
+```
 
 ## Try-Except
 A estrutura try-except é usada para tratamento de exceções em Python. Uma exceção é um erro que ocorre durante a execução do programa e que, se não tratado, interrompe o fluxo normal do programa e termina sua execução. O tratamento de exceções permite que o programa lide com erros de maneira elegante, permitindo que continue a execução ou falhe de forma controlada.
@@ -101,10 +107,11 @@ try: Este bloco é o primeiro na estrutura de tratamento de exceções. Python t
 except: Se uma exceção ocorrer no bloco try, a execução imediatamente salta para o bloco except. Você pode especificar tipos de exceção específicos para capturar e tratar apenas essas exceções. Se nenhum tipo de exceção for especificado, ele captura todas as exceções.
 
 ### Exemplo de try-except
-try:
+```try:
     # Código que pode gerar uma exceção
     resultado = 10 / 0
 except ZeroDivisionError:
     # Código que executa se a exceção ZeroDivisionError for levantada
     print("Divisão por zero não é permitida.")
+```
 
