@@ -28,7 +28,7 @@ print(f"A multiplicacao de {num_1} por {num_2} é igual a {multiplicacao}")
 num_1 = int(input("Digite o primeiro número:"))
 num_2 = int(input("Digite o segundo número:"))
 
-divisao_inteira = int(num_1/num_2)
+divisao_inteira = int(num_1//num_2)
 print(f"A divisao de {num_1} por {num_2} é igual a {divisao_inteira}")
 
 #5-Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
